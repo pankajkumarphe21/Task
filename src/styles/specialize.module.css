@@ -1,0 +1,49 @@
+.specialize{
+    margin-left: 112px;
+    border-radius: 18px;
+    border:1px solid rgba(220, 220, 220, 1);
+    width: 628px;
+    margin-top: 32px;
+    padding-bottom: 25px;
+}
+.specializehead{
+    height: 62px;
+    background-image: linear-gradient(to left,#FBFCFB,#F4F7EC);
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.74px;
+    border-radius: 18px 18px 0px 0px;
+    padding-left: 30px;
+}
+.scard{
+    height: 96px;
+    width: 100px;
+    background: rgba(255, 252, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cscard{
+    margin-left: 30px;;
+    padding: 2px;
+    margin-top: 20px;
+}
+.scard>img{
+    width: 80px;
+    height: 80px;
+}
+.specialize>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ccscard{
+    display: flex;
+}
+.cscard>span{
+    display: flex;
+    justify-content: center;
+}
