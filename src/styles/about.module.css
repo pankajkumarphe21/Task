@@ -2,3 +2,27 @@
     width: 628px;
     border-radius: 18px;
 }
+.abouthead{
+    height: 62px;
+    background-image: linear-gradient(to left,#FBFCFB,#F4F7EC);
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.74px;
+    padding-left: 30px;
+    margin-left: 82px;
+}
+.abouthead>button{
+    left: 400px;
+    position: absolute;
+    width: 113.66px;
+    border-radius: 10px;
+    height: 36px;
+    font-size: 16px;
+    border: 1px solid #DCDCDC;
+}
+.follow{
+    font-size: 19px;
+}
