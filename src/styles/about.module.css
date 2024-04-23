@@ -1,6 +1,20 @@
 .about{
     width: 628px;
+    margin-left: 82px;
+    border:1px solid rgba(220, 220, 220, 1);
     border-radius: 18px;
+}
+.readmore{
+    display: flex;
+    align-items: center;
+}
+.about>div>span{
+    width: 400px;
+    height: 0.5px;
+    background-color: rgba(121, 121, 121, 1);
+    display: inline-block;
+    position: relative;
+    left: 30px;
 }
 .abouthead{
     height: 62px;
@@ -11,18 +25,53 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 32.74px;
+    border-radius: 18px 18px 0px 0px;
     padding-left: 30px;
-    margin-left: 82px;
 }
 .abouthead>button{
-    left: 400px;
+    left: 476px;
     position: absolute;
     width: 113.66px;
     border-radius: 10px;
     height: 36px;
     font-size: 16px;
     border: 1px solid #DCDCDC;
+    background: rgba(255, 255, 255, 1);
 }
 .follow{
     font-size: 19px;
+}
+.about>p{
+    color: rgba(51, 53, 72, 0.5);
+    padding: 20px 112px 0px 30px;
+    font-size: 16px;
+}
+.about>div>a{
+    color: black;
+    padding-left: 50px;
+}
+.language{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.language>button{
+    background: rgba(46, 55, 164, 0.04);
+    color: rgba(80, 80, 80, 1);
+    border: 0px;
+    margin-left: 10px;
+    border-radius: 16px;
+    height: 40px;
+    width: 105px;
+}
+.media{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.media>button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    margin-right: 10px;
 }

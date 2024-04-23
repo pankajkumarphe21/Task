@@ -1,7 +1,7 @@
 import styles from './../styles/card.module.css'
-import img from './../images/2d51c94620b579efef8a7a0016be5616.png';
-import { SlGraduation } from "react-icons/sl";
-import { TfiCommentAlt } from "react-icons/tfi";
+import img1 from './../images/Frame.png';
+import img2 from './../images/Frame(1).png';
+import img3 from './../images/2d51c94620b579efef8a7a0016be5616.png';
 
 const Card = () => {
   return (
@@ -11,11 +11,11 @@ const Card = () => {
       </div>
       <h1>Dr. Prerna Narang</h1>
       <p>
-        {/* <div className={styles.speciality}><p>-</p></div> */}
+        <img src={img1} alt="" />
         Male-Female Infertility
       </p>
-      <p><div className={styles.icons}><SlGraduation/></div>7 years of Experience</p>
-      <p><div className={styles.icons}><TfiCommentAlt/></div>Speaks: English, Hindi, Marathi</p>
+      <p><img src={img2} alt="" />7 years of Experience</p>
+      <p><img src={img3} alt="" />Speaks: English, Hindi, Marathi</p>
       <div className={styles.consult}>
         <div className={styles.consultation}>
             Video Consultation
